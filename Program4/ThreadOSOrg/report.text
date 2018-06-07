@@ -1,0 +1,8 @@
+Aisha A. Abdinur
+Report:
+
+The cache class has private members: CachBlock, a class that has referenceBit, dirtyBit, frameNumber and
+data (Byte[]); cacheSize, the size of the cache and blockSize, the size of a block of cache. The cache 
+class has a constructo initialized with the blocksize on the number of cachblocks. The functions of the Cache Class
+are read, write, sync and flush. The helper functions are writeDisk, addCache, searchID, readCache, updateCache,
+CreateClass and findVictim. 
